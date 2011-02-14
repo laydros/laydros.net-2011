@@ -2,6 +2,8 @@
 layout: default
 title: gallery
 ---  
+<script src="jquery.js"></script>
+<script src="/gallery/galleria/src/galleria.js"></script>
 	<div id="galleria">
 		<img src="pictures/PeppersAtPikes-8231.jpg">
 		<img src="pictures/Seattle-1616.jpg">

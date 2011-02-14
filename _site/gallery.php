@@ -21,11 +21,11 @@
 		<h1>/laydros</h1>
 		</div>
 		<div id="nav">
-		<a href="/index.php">home</a>
-		<a href="/about.php">about </a>
-		<a href="/projects.php">projects</a>
+		<a href="/index.html">home</a>
+		<a href="/about.html">about </a>
+		<a href="/projects.html">projects</a>
 		<a href="/gallery.php">photos</a>
-		<a href="/bloglist.php">blog</a>
+		<a href="/bloglist.html">blog</a>
 		</div>
 	<script>
 		$(document).ready(function() {
@@ -35,7 +35,9 @@
 	</script>
 	<br />
         <div class="container">  
-            	<div id="galleria">
+            <script src="jquery.js"></script>
+<script src="/gallery/galleria/src/galleria.js"></script>
+	<div id="galleria">
 		<img src="pictures/PeppersAtPikes-8231.jpg">
 		<img src="pictures/Seattle-1616.jpg">
 		<img src="pictures/Seattle-1597.jpg">
@@ -59,9 +61,9 @@
 
         </div>
 		<div id="footer">
-			<a href="http://www.laydros.org/">&#169; 2010 jwh</a>
+			<a href="http://www.laydros.net/">&#169; 2010 jwh</a>
 			<br />
-			<b>contact</b>: jason at laydros dot org
+			<b>contact</b>: jason at laydros dot net
 	</div>
     </body>
 </html>
