@@ -1,0 +1,3 @@
+source:      .
+destination: /arpa/gm/l/laydros/html/
+permalink: /blog/:year/:month/:day/:title.html
