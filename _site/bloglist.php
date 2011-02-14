@@ -5,7 +5,7 @@
 		<meta name="description" content="Stuff">
 		<meta name="keywords" content="text, text files, sync, syncing, writing, notes, todo, to-do, todo list, productivity" />
 		<meta name="viewport" content="width=device-width" />
-		<title>laydros.org</title>
+    <title>laydros.net - Blog</title>
 		<link rel="icon" href="/favicon.ico" TYPE="image/x-icon">
 		<style type="text/css" media="all"> 
 			@import "/css/mainstyle.css";
