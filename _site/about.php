@@ -41,13 +41,13 @@
 
 <div id="about">
 <h3>I am...</h3>
-<img style="float:right;" src="jason_head_crop.jpg">
+<img style="float:right;" src="/media/jason_head_crop.jpg">
 
 A photographer, developer, husband, and father.<br /> 
 I have lived in or around Raleigh, North Carolina most of my life.<br /> 
 I love music, and I enjoy writing and programming. <br />
 <h3>Email</h3>
-jason at laydros dot org<br />
+jason at laydros dot net<br />
 <h3>Skills</h3>
 C(++, #), Java, HTML + CSS, AJAX, Perl, bash scripting<br />
 Linux-BSD/MacOS/Windows<br />
