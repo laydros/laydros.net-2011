@@ -1,3 +1,3 @@
 source:      .
-destination: /arpa/gm/l/laydros/html/
+destination: ./_site
 permalink: /blog/:year/:month/:day/:title.html
