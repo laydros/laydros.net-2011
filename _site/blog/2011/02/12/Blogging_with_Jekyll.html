@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Stuff">
+		<meta name="keywords" content="text, text files, sync, syncing, writing, notes, todo, to-do, todo list, productivity" />
+		<meta name="viewport" content="width=device-width" />
+		<title>laydros.org</title>
+		<link rel="icon" href="/favicon.ico" TYPE="image/x-icon">
+		<style type="text/css" media="all"> 
+			@import "/css/mainstyle.css";
+		</style>
+			<script type="/text/javascript">	
+			</script>
+			<script type="text/javascript" src="/scripts/jquery.js"></script>
+
+	</head>
+     <body>
+		<div id="header">
+		<!-- image src="/header.png" width="362" height="65" alt="darrg"/-->
+		<h1>/laydros</h1>
+		</div>
+		<div id="nav">
+		<a href="/index.php">home</a>
+		<a href="/about.php">about </a>
+		<a href="/projects.php">projects</a>
+		<a href="/gallery.php">photos</a>
+		<a href="/bloglist.php">blog</a>
+		</div>
+	<script>
+		$(document).ready(function() {
+	   		$("#nav").fadeIn(1300);
+		 });
+
+	</script>
+	<br />
+        <div class="container">  
+              <h1><a href='/blog/2011/02/12/Blogging_with_Jekyll.html'>Blogging with Jekyll</a></h1>
+  <div class='date'>posted 12 Feb 2011</div>
+
+<div id="post">
+<p>I&#8217;ve used tons of hosted blogging platforms in the past, but I&#8217;m trying something a bit different this time, called Jekyll. Jekyll is a static site generator. The idea is that you create your site templates, then create your content in text files using something like Markdown or textile, and then run a script which puts everything together. No database or dynamic server language like php or ruby is needed. The resulting site is just old fashioned static html. It is a simple system that can considerably reduce the load on a server. I also allows a lot more flexibility. A fairly common way to use a static site generator is to run it on your local machine, and sync the contents to a source repository, and push just the html output to your webhost.</p>
+
+<p>So, I&#8217;ll see how this goes. I like working in Markdown (although there are other ways to do that) and I like the ability to just zip up a site to back things up.</p>
+
+<p><a href='http://jekyllrb.com/' title='Jekyll Main Page'>Jekyll</a><br /><a href='http://ringce.com/hyde' title='Hyde Main Page'>Hyde</a> is an answer to Jekyll that uses Python and Django<br /><a href='http://nanoc.stoneship.org/'>nanoc</a> - another popular static site generator</p>
+</div>
+
+<div id="related">
+    <h4>Possibly Related Posts</h4>
+    <ul class="posts">
+        
+            <li><span>10 Feb 2011</span> &raquo; <a href="/blog/2011/02/10/a-test-post.html">its a test post</a></li>
+        
+    </ul>
+</div>
+
+<!-- This is for code colorization which doesn't seem to work very well in IE... i guess I don't care very much -->
+<script language="javascript" src="http://communicatopia.s3.amazonaws.com/js/shCore.js"></script>
+<script language="javascript" src="http://communicatopia.s3.amazonaws.com/js/shBrushRuby.js"></script>
+<script language="javascript" src="http://communicatopia.s3.amazonaws.com/js/shBrushPhp.js"></script>
+<script language="javascript" src="http://communicatopia.s3.amazonaws.com/js/shBrushXml.js"></script>
+<script language="javascript" src="http://communicatopia.s3.amazonaws.com/js/shBrushCss.js"></script>
+<script language="javascript" src="http://communicatopia.s3.amazonaws.com/js/shBrushBash.js"></script>
+<script language="javascript" src="http://communicatopia.s3.amazonaws.com/js/shBrushJScript.js"></script>
+<script language="javascript">
+dp.SyntaxHighlighter.ClipboardSwf = 'http://communicatopia.s3.amazonaws.com/js/clipboard.swf';
+//name, showGutter, showControls, collapseAll, firstLine , showColumns
+dp.SyntaxHighlighter.HighlightAll('code',false, false,false,1,false);
+</script>
+
+
+
+
+        </div>
+		<div id="footer">
+			<a href="http://www.laydros.org/">&#169; 2010 jwh</a>
+			<br />
+			<b>contact</b>: jason at laydros dot org
+	</div>
+    </body>
+</html>
