@@ -1,22 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width" />
-	<title>laydros.org - gallery</title>
-	<link rel="icon" href="favicon.ico" TYPE="image/x-icon">
-	<style type="text/css" media="all"> 
-		@import "mainstyle.css";
-	</style>
-	<script src="jquery.js"></script>
-	<script src="/gallery/galleria/src/galleria.js"></script>
-</head>
-
-<body>
-	<?php
-		include("header.inc");
-	?>
-	
+---
+layout: default
+title: gallery
+---  
 	<div id="galleria">
 		<img src="pictures/PeppersAtPikes-8231.jpg">
 		<img src="pictures/Seattle-1616.jpg">
@@ -38,9 +23,3 @@
     $('#galleria').galleria();
     </script>
 	<br />
-	
-	<?php
-		include("footer.inc");
-	?>
-</body>
-</html>
